@@ -1,0 +1,23 @@
+
+class CfgNetworkMessages
+{
+        #include "Client_scriptsAndFunctions\CfgNetworkMessages.hpp"
+};
+
+class CfgFunctions
+{
+    class Reborn
+    {
+        class Bootstrap
+        {
+            file="Client_scriptsAndFunctions";
+            class preInit
+            {
+                preInit = 1;
+            };
+        };
+    };
+};
+
+
+
