@@ -1,0 +1,10 @@
+Drop the Client_scriptsAndFunctions folder with all of its contents into your mission.pbo
+Copy the class CfgFunctions in the description.ext to the bottom of your description.ext located in your mission.pbo
+If you already have a class CfgFunctions in your description.ext than copy the class reborn portion into your class CfgFunctions of your description.ext
+Copy the contents of the initPlayerLocal.sqf into the bottom of your initPlayerLocal.sqf
+
+(There are 2 types of shovels in exile. One that you carry on your back and use 3 to equip it, and one that goes into your inventory
+and is used in building recipes. The one that you use for this to work is the one that you carry on your back and is equipable. it is called Exile_Melee_Shovel)
+
+Go to any beach and press 3 to equip the shovel now look at the sand and use your mouse scroll wheel to get the option to dig for sand and prss spacebar.
+If you have issues, try dropping the shovel on the ground and picking it back up.
